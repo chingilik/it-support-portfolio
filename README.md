@@ -120,19 +120,24 @@
 ## ☁️ Section 5: Cloud RMM & Patch Management (Action1)
 *Demonstrating modern, cloud-based fleet management and vulnerability remediation.*
 
-### 5.1 Automated Agent Deployment
-> *Configured a GPO to automatically deploy the Action1 RMM agent to all domain-joined computers via a centralized network share.*
+### 5.1 Hybrid Integration (Active Directory Connector)
+> *Configured the Action1 AD Connector to automatically discover and sync on-premise assets with the cloud platform, ensuring real-time fleet visibility.*
 
-![GPO Software Install](screenshots/gpo-deploy-agent.png)
-![Network Share](screenshots/server-deploy-share.png)
+![AD Connector Config](screenshots/action1-ad-connector-config.png)
+![Agent Install CLI](screenshots/action1-agent-install-cli.png)
 
-### 5.2 Endpoint Verification & Vulnerability Management
-> *Verified successful agent installation and performed vulnerability assessments to identify missing patches and generate compliance reports.*
+### 5.2 Vulnerability Management & Patching
+> *Performed automated vulnerability assessments to identify critical CVEs and executed patch remediation workflows to secure the environment.*
 
-![Client Agent Installed](screenshots/client-agent-installed.png)
-![Action1 Dashboard](screenshots/action1-endpoints-dashboard.png)
-![Missing Updates](screenshots/action1-missing-updates.png)
+![CVE List](screenshots/action1-cve-list.png)
+![Patch Remediation](screenshots/action1-patch-remediation.png)
 ![Compliance Report](screenshots/action1-compliance-report.png)
+
+### 5.3 Automated Software Deployment
+> *Leveraged the Action1 App Store to deploy certified third-party applications (7-Zip) to client endpoints without manual intervention.*
+
+![Deploy 7-Zip Task](screenshots/action1-deploy-7zip-task.png)
+![Client 7-Zip Installed](screenshots/client-7zip-installed.png)
 
 ---
 
