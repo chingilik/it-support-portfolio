@@ -110,11 +110,6 @@
 ![Account Locked Message](screenshots/client-locked-out-msg.png)
 ![Logon Denied Message](screenshots/client-logon-denied-msg.png)
 
-### 4.3 Drive Mapping Automation
-> *Configured Group Policy Preferences (GPP) to automatically map network drives (Z:) based on user Security Group membership.*
-
-![GPO Drive Mapping](screenshots/gpo-drive-map.png)
-
 ---
 
 ## ☁️ Section 5: Cloud RMM & Patch Management (Action1)
@@ -159,16 +154,17 @@
 
 ![Jira Customers](screenshots/jira-customers-sync.png)
 
-### 7.2 Ticket Triage & Queue Management
+### 7.2 Service Desk Configuration (SLA & Automation)
+> *Configured strict Service Level Agreement (SLA) goals and automation rules to prioritize high-impact incidents and ensure timely resolution.*
+
+![SLA Configuration](screenshots/jira-sla-goals.png)
+![Automation Rules](screenshots/jira-automation-rule.png)
+
+### 7.3 Ticket Triage & Queue Management
 > *Managed the IT Service Desk queue, prioritizing high-impact incidents and using Internal Notes to track investigation steps.*
 
 ![Jira Queue](screenshots/jira-queue-view.png)
 ![Ticket Assignment](screenshots/jira-ticket-assignment.png)
-
-### 7.3 Service Level Agreements (SLA)
-> *Adhered to strict SLA windows for "Time to First Response" and "Time to Resolution," as demonstrated by the live SLA timer in high-priority tickets.*
-
-![SLA Timer](screenshots/jira-ticket-sla-triage.png)
 
 ### 7.4 Service Request Fulfillment
 > *Configured a self-service Customer Portal for software requests and fulfilled them using automated RMM workflows.*
