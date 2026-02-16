@@ -62,10 +62,10 @@
 ![Active Directory OU Structure](screenshots/ad-ou-structure.png)
 
 ### 2.2 Advanced User Provisioning
-> *Provisioned new user accounts (e.g., Neil Nepu) with standard naming conventions and configured strict Logon Hours to restrict access to business hours only.*
+> *Provisioned new user accounts (e.g., Neil Nepu) with standard naming conventions and configured strict Logon Hours/Account Expiry to enhance security.*
 
 ![New User Neil](screenshots/ad-user-neil.png)
-![Logon Hours](screenshots/ad-logon-hours.png)
+![Account Restrictions](screenshots/ad-account-expiry.png)
 
 ### 2.3 End-to-End Verification
 > *Verified end-to-end connectivity by logging into the client workstation using the provisioned Active Directory user account.*
@@ -74,43 +74,48 @@
 
 ---
 
-## ⚙️ Section 3: Endpoint Management & Automation (Group Policy)
-*Showcasing the ability to automate configuration and security settings across the fleet.*
+## ⚙️ Section 3: Group Policy & Security Hardening
+*Showcasing the ability to automate configuration and enforce security protocols.*
 
-### 3.1 Drive Mapping Automation
+### 3.1 Password & Lockout Policies
+> *Enforced a strict Password Policy (12-char min, 90-day rotation) and Account Lockout Policy (3 attempts) to mitigate brute-force attacks.*
+
+![Password Policy](screenshots/gpo-password-policy.png)
+![Lockout Policy](screenshots/gpo-lockout-policy.png)
+
+### 3.2 Security Validation (Simulated Attack)
+> *Simulated a brute-force attempt and verified that the account was successfully locked out, preventing unauthorized access. Also verified Logon Hour restrictions.*
+
+![Account Locked Message](screenshots/client-locked-out-msg.png)
+![Logon Denied Message](screenshots/client-logon-denied-msg.png)
+
+### 3.3 Drive Mapping Automation
 > *Configured Group Policy Preferences (GPP) to automatically map network drives (Z:) based on user Security Group membership.*
 
 ![GPO Drive Mapping](screenshots/gpo-drive-map.png)
-
-### 3.2 Security Hardening (Account Lockout)
-> *Enforced a strict Account Lockout Policy (3 attempts) to mitigate brute-force attacks on network credentials.*
-
-![Account Lockout Policy](screenshots/gpo-lockout.png)
-
-### 3.3 Client-Side Validation
-> *Verified GPO application on a Windows 11 client using command-line tools (`gpresult /r`) to ensure compliance.*
-
-![GPResult Command](screenshots/cmd-gpresult.png)
 
 ---
 
 ## ☁️ Section 4: Cloud RMM & Patch Management (Action1)
 *Demonstrating modern, cloud-based fleet management and vulnerability remediation.*
 
-### 4.1 Active Directory Integration
-> *Connected on-premise Active Directory to Action1 Cloud RMM, enabling real-time discovery of unmanaged endpoints.*
+### 4.1 Automated Agent Deployment
+> *Configured a GPO to automatically deploy the Action1 RMM agent to all domain-joined computers via a centralized network share.*
 
-![Action1 Connectors](screenshots/action1-connectors.png)
+![GPO Software Install](screenshots/gpo-deploy-agent.png)
+![Network Share](screenshots/server-deploy-share.png)
 
-### 4.2 Third-Party Software Deployment
-> *Deployed critical business software (7-Zip) to remote endpoints using the 'Run Now' scheduler.*
+### 4.2 Endpoint Verification
+> *Verified successful agent installation on the client and confirmed connectivity in the Action1 Cloud Dashboard.*
 
-![Software Deployment](screenshots/action1-deployment.png)
+![Client Agent Installed](screenshots/client-agent-installed.png)
+![Action1 Dashboard](screenshots/action1-endpoints-dashboard.png)
 
-### 4.3 Vulnerability Assessment
-> *Identified and remediated high-severity CVEs (Common Vulnerabilities and Exposures) across the test environment.*
+### 4.3 Vulnerability Management & Reporting
+> *Performed vulnerability assessments to identify missing patches and generated executive compliance reports for audit purposes.*
 
-![Vulnerability Dashboard](screenshots/action1-dashboard.png)
+![Missing Updates](screenshots/action1-missing-updates.png)
+![Compliance Report](screenshots/action1-compliance-report.png)
 
 ---
 
