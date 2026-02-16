@@ -154,17 +154,16 @@
 
 ![Jira Customers](screenshots/jira-customers-sync.png)
 
-### 7.2 Service Desk Configuration (SLA & Automation)
-> *Configured strict Service Level Agreement (SLA) goals and automation rules to prioritize high-impact incidents and ensure timely resolution.*
-
-![SLA Configuration](screenshots/jira-sla-goals.png)
-![Automation Rules](screenshots/jira-automation-rule.png)
-
-### 7.3 Ticket Triage & Queue Management
+### 7.2 Ticket Triage & Queue Management
 > *Managed the IT Service Desk queue, prioritizing high-impact incidents and using Internal Notes to track investigation steps.*
 
 ![Jira Queue](screenshots/jira-queue-view.png)
 ![Ticket Assignment](screenshots/jira-ticket-assignment.png)
+
+### 7.3 Service Level Agreements (SLA)
+> *Adhered to strict SLA windows for "Time to First Response" and "Time to Resolution," as demonstrated by the live SLA timer in high-priority tickets.*
+
+![SLA Timer](screenshots/jira-ticket-sla-triage.png)
 
 ### 7.4 Service Request Fulfillment
 > *Configured a self-service Customer Portal for software requests and fulfilled them using automated RMM workflows.*
