@@ -154,16 +154,33 @@
 ## 🎫 Section 7: IT Service Management (Jira Service Management)
 *Proving the ability to manage the ticket lifecycle, SLAs, and user communication.*
 
-### 7.1 Service Request Fulfillment
-> *Triaged and resolved a software installation request, deploying the application via RMM.*
+### 7.1 Identity Synchronization
+> *Synced on-premise Active Directory users to Jira Service Management, ensuring seamless authentication and customer profile management.*
 
-![Resolved Request Ticket](screenshots/jira-ticket-7zip.png)
+![Jira Customers](screenshots/jira-customers-sync.png)
 
-### 7.2 Incident Management (Break/Fix)
-> *Resolved a high-priority 'User Locked Out' incident for user Kyrie within the SLA window using Active Directory tools.*
+### 7.2 Ticket Triage & Queue Management
+> *Managed the IT Service Desk queue, prioritizing high-impact incidents and using Internal Notes to track investigation steps.*
 
-![Resolved Incident Ticket](screenshots/jira-ticket-incident.png)
-![AD Account Unlock](screenshots/ad-unlock-account.png)
+![Jira Queue](screenshots/jira-queue-view.png)
+![Ticket Assignment](screenshots/jira-ticket-assignment.png)
+
+### 7.3 Service Level Agreements (SLA)
+> *Adhered to strict SLA windows for "Time to First Response" and "Time to Resolution," as demonstrated by the live SLA timer in high-priority tickets.*
+
+![SLA Timer](screenshots/jira-ticket-sla-triage.png)
+
+### 7.4 Service Request Fulfillment
+> *Configured a self-service Customer Portal for software requests and fulfilled them using automated RMM workflows.*
+
+![Customer Portal](screenshots/jira-portal-view.png)
+![Resolved Request](screenshots/jira-ticket-request-resolved.png)
+
+### 7.5 Incident Management (Break/Fix)
+> *Resolved a high-priority 'User Locked Out' incident by verifying identity, unlocking the account in AD, and documenting the resolution.*
+
+![Resolved Incident](screenshots/jira-ticket-incident-resolved.png)
+![AD Account Unlock](screenshots/ad-unlock-verify.png)
 
 ---
 
