@@ -180,4 +180,4 @@
 ---
 
 ## 📫 Contact
-**John Belita** | Calgary, AB
+**John Belita** | Calgary, AB | johnalbertbelita@gmail.com
