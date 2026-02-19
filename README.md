@@ -1,7 +1,20 @@
 # 🛡️ IT Support Enterprise Lab Portfolio
 **Administrator:** John Belita
-**Location:** Calgary, AB
+**Location:** Calgary, AB | **Email:** johnalbertbelita@gmail.com
 **Environment:** Windows Server 2022, Windows 11, Action1 RMM, Jira Service Management
+
+---
+
+## 🚀 Project Overview
+Welcome to my technical portfolio. This repository serves as documented proof of my hands-on proficiency in enterprise IT support, bridging the gap between my formal Cybersecurity and Networking education and real-world Service Desk operations. 
+
+To demonstrate my readiness for IT Support roles, I engineered a comprehensive **Enterprise Home Lab**. This simulated hybrid environment allowed me to execute the daily responsibilities of a Service Desk Analyst, from resolving end-user incidents to managing identity lifecycles and enforcing endpoint security.
+
+### 🎯 Core Competencies Demonstrated
+* **Identity & Access Management (IAM):** Administering Active Directory (AD DS), automating bulk user provisioning with PowerShell, and enforcing Group Policy (GPO).
+* **IT Service Management (ITSM):** Managing the full ticket lifecycle, practicing First Call Resolution (FCR) methodologies, and enforcing SLAs using Jira Service Management.
+* **Remote Fleet Management:** Deploying third-party software, monitoring endpoint health, and automating patch management via Action1 RMM.
+* **Security & Compliance:** Architecting secure file shares, applying the Principle of Least Privilege, and enforcing Role-Based Access Control (RBAC) via NTFS permissions.
 
 ---
 
@@ -176,6 +189,13 @@
 
 ![Resolved Incident](screenshots/jira-ticket-incident-resolved.png)
 ![AD Account Unlock](screenshots/ad-unlock-verify.png)
+
+---
+
+## 📜 Education & Certifications
+* **CompTIA Security+** | Certified January 2026
+* **Diploma in Cybersecurity** | ABM College, Calgary, AB | Graduated May 2025
+* **Network Specialist Training** | SAIT, Calgary, AB | 2019
 
 ---
 
