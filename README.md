@@ -1,7 +1,6 @@
 # 🛡️ IT Support Enterprise Lab Portfolio
 **Administrator:** John Belita
 **Location:** Calgary, AB | **Email:** johnalbertbelita@gmail.com
-**Environment:** Windows Server 2022, Windows 11, Action1 RMM, Jira Service Management
 
 ---
 
@@ -10,11 +9,18 @@ Welcome to my technical portfolio. This repository serves as documented proof of
 
 To demonstrate my readiness for IT Support roles, I engineered a comprehensive **Enterprise Home Lab**. This simulated hybrid environment allowed me to execute the daily responsibilities of a Service Desk Analyst, from resolving end-user incidents to managing identity lifecycles and enforcing endpoint security.
 
+### 🛠️ Tech Stack & Tools Used
+* **Infrastructure:** Windows Server 2022, Windows 11 Pro, Oracle VirtualBox
+* **Identity & Security:** Active Directory (AD DS), Group Policy (GPO), NTFS/RBAC
+* **ITSM & Ticketing:** Jira Service Management
+* **Endpoint Management:** Action1 RMM
+* **Scripting:** PowerShell
+
 ### 🎯 Core Competencies Demonstrated
-* **Identity & Access Management (IAM):** Administering Active Directory (AD DS), automating bulk user provisioning with PowerShell, and enforcing Group Policy (GPO).
-* **IT Service Management (ITSM):** Managing the full ticket lifecycle, practicing First Call Resolution (FCR) methodologies, and enforcing SLAs using Jira Service Management.
-* **Remote Fleet Management:** Deploying third-party software, monitoring endpoint health, and automating patch management via Action1 RMM.
-* **Security & Compliance:** Architecting secure file shares, applying the Principle of Least Privilege, and enforcing Role-Based Access Control (RBAC) via NTFS permissions.
+* **Identity & Access Management (IAM):** Administering Active Directory, automating bulk user provisioning, and enforcing security policies.
+* **IT Service Management (ITSM):** Managing the full ticket lifecycle, practicing First Call Resolution (FCR) methodologies, and enforcing SLAs.
+* **Remote Fleet Management:** Deploying third-party software, monitoring endpoint health, and automating patch management.
+* **Security & Compliance:** Architecting secure file shares, applying the Principle of Least Privilege, and enforcing Role-Based Access Control.
 
 ---
 
@@ -201,3 +207,5 @@ To demonstrate my readiness for IT Support roles, I engineered a comprehensive *
 
 ## 📫 Contact
 **John Belita** | Calgary, AB | johnalbertbelita@gmail.com
+
+[⬆ Back to Top](#️-it-support-enterprise-lab-portfolio)
