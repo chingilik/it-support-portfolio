@@ -193,11 +193,14 @@ To demonstrate my readiness for IT Support roles, I engineered a comprehensive *
 > *Simulated and resolved a high-impact (Priority: Highest) business outage where the HR department lost access to a critical file share. Documented technical root causes in Internal Notes, while providing clear, jargon-free resolution updates to the non-technical end-users.*
 
 * **Simulated Incident:** "URGENT: HR Department cannot access the Confidential Shared Drive."
-* **Root Cause:** The `HR_Staff` Security Group was inadvertently removed from the folder's Access Control List (ACL) on the file server.
+* **Root Cause:** The `HR` Security Group was inadvertently removed from the folder's Access Control List (ACL) on the file server.
 * **Resolution:** Re-applied the correct Role-Based Access Control (RBAC) group to the folder, verified inheritance, and confirmed access with the end-users using non-technical customer service communication.
 
 ![Jira Incident Resolved](screenshots/jira-incident-resolved.png)
 *Figure 5: Documenting root cause analysis via Internal Notes and communicating the resolution to the end-user.*
+
+![AD Folder Fix](screenshots/ad-hr-folder-fix.png)
+*Figure 6: Verifying the technical resolution by restoring the HR security group to the folder's Access Control List.*
 
 ---
 
@@ -211,4 +214,4 @@ To demonstrate my readiness for IT Support roles, I engineered a comprehensive *
 ## 📫 Contact
 **John Belita** | Calgary, AB | johnalbertbelita@gmail.com
 
-[⬆ Back to Top](#it-support-enterprise-lab-portfolio)
+[⬆ Back to Top](#️-it-support-enterprise-lab-portfolio)
